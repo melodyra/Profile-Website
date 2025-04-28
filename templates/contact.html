@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - MRA</title>
+   <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="static/fontawesome/css/all.min.css" />
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+    .profile-photo {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+    .contact-item img {
+      width: 20px;
+      height: 20px;
+    }
+    .contact-item a {
+      color: white;
+      text-decoration: none;
+      font-weight: normal;
+    }
+    .contact-item a:hover {
+      color: lightgray;
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white">
+<header class="relative">
+  <div class="w-full h-screen bg-fixed bg-center bg-cover" style="background-image: url('static/1129600.jpg');">
+    <div class="w-full h-full bg-black bg-opacity-50 flex flex-col justify-between">
+      <!-- Navigasi Bar -->
+      <nav class="flex justify-between items-center p-6 text-white">
+        <div class="text-3xl font-bold">Profile</div>
+        <ul class="flex space-x-6">
+          <li class="relative group">
+            <a href="/" class="hover:text-gray-400">Home</a>
+            <span class="absolute left-0 -bottom-1 w-full h-0.5 bg-orange-400 scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></span>
+          </li>
+          <li class="relative group">
+            <a href="/information" class="hover:text-gray-400">Information</a>
+            <span class="absolute left-0 -bottom-1 w-full h-0.5 bg-orange-400 scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></span>
+          </li>
+          <li class="relative group">
+            <a href="/portofolio" class="hover:text-gray-400">Portofolio</a>
+            <span class="absolute left-0 -bottom-1 w-full h-0.5 bg-orange-400 scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></span>
+          </li>
+          <li class="relative group">
+            <a href="/contact" class="font-bold text-orange-400">Contact</a>
+            <span class="absolute left-0 -bottom-1 w-full h-0.5 bg-orange-400 scale-x-100 transition-transform origin-left duration-300"></span>
+          </li>
+        </ul>
+        <div class="flex space-x-4">
+          <a href="#" class="hover:text-gray-400"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="hover:text-gray-400"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" class="hover:text-gray-400"><i class="fab fa-facebook"></i></a>
+        </div>
+      </nav>
+      <!-- Profil -->
+      <div class="flex flex-col items-center justify-start flex-1 text-center pt-60">
+        <img src="static/profile.png" alt="Profile Photo" class="profile-photo" />
+        <div class="profile-info mt-4">
+          <h2 class="text-xl font-bold">Muchammad Rafi Attariq</h2>
+          <h3>Teknik Elektro</h3>
+          <h4>Universitas Padjadjaran</h4>
+        </div>
+        <div class="contact-info mt-6 flex gap-10 flex-wrap justify-center">
+          <div class="contact-item flex items-center gap-2">
+            <img src="static/email-icon.png" alt="Email Icon" />
+            <a href="mailto:rafiattariq346@gmail.com">rafiattariq346@gmail.com</a>
+          </div>
+          <div class="contact-item flex items-center gap-2">
+            <img src="static/phone-icon.png" alt="Phone Icon" />
+            <a href="https://wa.me/6281909787426" target="_blank">+6281909787426</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+</body>
+</html>

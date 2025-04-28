@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profile - MRA</title>
+  <link rel="stylesheet" href="static/fontawesome/css/all.min.css"/>
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white">
+<header class="relative">
+  <div class="w-full h-screen bg-fixed bg-center bg-cover" style="background-image: url('static/1129600.jpg');">
+    <div class="w-full h-full bg-black bg-opacity-50 flex flex-col justify-between">
+      <!-- Navigasi Bar -->
+      <nav class="flex justify-between items-center p-6">
+        <div class="text-3xl font-bold">Profile</div>
+        <ul class="flex space-x-6">
+          <li class="relative group">
+            <a href="/" class="font-bold text-orange-400">Home</a>
+            <span class="absolute left-0 -bottom-1 w-full h-0.5 bg-orange-400 scale-x-100 transition-transform origin-left duration-300"></span>
+          </li>
+          <li class="relative group">
+            <a href="/information" class="hover:text-gray-400">Information</a>
+            <span class="absolute left-0 -bottom-1 w-full h-0.5 bg-orange-400 scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></span>
+          </li>
+          <li class="relative group">
+            <a href="/portofolio" class="hover:text-gray-400">Portofolio</a>
+            <span class="absolute left-0 -bottom-1 w-full h-0.5 bg-orange-400 scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></span>
+          </li>
+          <li class="relative group">
+            <a href="/contact" class="hover:text-gray-400">Contact</a>
+            <span class="absolute left-0 -bottom-1 w-full h-0.5 bg-orange-400 scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></span>
+          </li>
+        </ul>
+        <div class="flex space-x-4">
+          <a href="https://instagram.com/raaespaa/" class="hover:text-gray-400"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/6281909787426" class="hover:text-gray-400"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://www.facebook.com/share/15422G3G1K/" class="hover:text-gray-400"><i class="fab fa-facebook"></i></a>
+        </div>
+      </nav>
+
+      <div class="flex flex-col items-start justify-center h-full p-6 md:p-12 lg:p-24">
+        <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6">Muchammad Rafi Attariq</h1>
+        <p class="text-lg mb-6">Mahasiswa Teknik Elektro, Universitas Padjadjaran</p>
+        <a href="/contact" class="bg-blue-500 text-white px-4 py-2 rounded-full text-lg hover:bg-orange-600">Contact Me</a>
+      </div>
+    </div>
+  </div>
+</header>
+<section class="relative min-h-screen flex flex-col items-center justify-center px-8 py-20 overflow-hidden">
+  <div class="absolute inset-0">
+    <div class="w-full h-full bg-fixed bg-center bg-cover bg-[url('static/1129600.jpg')]"></div>
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+  </div>
+  <div class="relative z-10 flex flex-col items-center w-full max-w-6xl gap-8">
+    <div class="flex w-full overflow-hidden rounded-3xl shadow-2xl">
+      <div class="flex flex-col items-center w-80 bg-white/10 backdrop-blur-md p-8">
+        <img src="static/profile.png" alt="Profile" class="mt-6 w-40 h-40 object-cover rounded-full mb-6">
+        <h2 class="mt-4 text-2xl font-semibold text-white text-center">Muchammad Rafi Attariq</h2>
+        <p class="text-gray-300 mt-3">140910240031</p>
+        <p class="text-gray-300">Bandung, 26 Juli 2006</p>
+        <p class="text-orange-400 mt-5 font-bold">Electrical and Artist</p>
+      </div>
+      <div class="flex-1 p-10 bg-white/5 backdrop-blur-xl text-gray-300 text-justify">
+        <p class="indent-[4em] mb-6">
+          Saya adalah mahasiswa Teknik Elektro di Universitas Padjadjaran yang tertarik dengan dunia teknologi dan inovasi.
+          Bagi saya, setiap sistem memiliki lebih dari sekadar apa yang tampak di permukaan, seperti "Apa yang terlihat belum tentu terlihat." 
+          Di bidang akademik, saya tertarik pada pengembangan teknologi yang berdampak luas, khususnya dalam pemanfaatan teknologi bagi manusia.
+          Saya percaya bahwa solusi terbaik lahir dari eksplorasi dan pemahaman yang mendalam.
+        </p>
+        <p class="indent-[4em] mb-6">
+          Perjalanan pendidikan saya dimulai di SMP Labschool UPI Cibiru, kemudian dilanjutkan di SMAN 1 Cileunyi dengan jurusan MIPA, hingga lulus pada Juli 2024.
+          Pengalaman pendidikan ini menjadi fondasi awal ketertarikan saya pada bidang sains dan teknologi, yang terus berkembang hingga saat ini di bangku kuliah.
+          Di luar akademik, saya menyalurkan kreativitas dan ketelitian melalui menggambar.
+          Hobi ini menjadi cara untuk mengekspresikan perspektif dan imajinasi saya.
+          Selain itu, saya juga menikmati bermain game sebagai sarana hiburan sekaligus tantangan strategi.
+          Setiap permainan mengajarkan pola pikir analitis, problem solving, dan kerja sama tim.
+        </p>
+        <p>
+          Bagi saya, belajar tidak hanya terjadi di ruang kuliah, tetapi juga dalam setiap pengalaman dan interaksi yang saya jalani.
+        </p>
+      </div>
+    </div>
+    <a href="https://wa.me/6281909787426" class="text-blue-400 font-bold text-lg hover:underline">
+      Talk to Me?
+    </a>
+  </div>
+</section>
+</section>
+</body>
+</html>
